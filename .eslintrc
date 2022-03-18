@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "allowImportExportEverywhere": false,
+    "sourceType": "module",
+    "project": [
+      "./.eslintrc.json"
+    ],
+    "ecmaFeatures": {
+      "globalReturn": false
+    }
+  },
+  "requireConfigFile": true,
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "eqeqeq": "off",
+    "curly": "error"
+  }
+}

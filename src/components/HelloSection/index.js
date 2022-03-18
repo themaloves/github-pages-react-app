@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './HelloSection.module.css';
+import s from './HelloSection.module.scss';
 
 export const HelloSection = () => {
 	return (

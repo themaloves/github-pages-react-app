@@ -1,0 +1,10 @@
+.app {
+    background-color: #f5fffa;
+    height: 100vh;
+}
+
+@media (max-width: 1300px) {
+    .app {
+        height: 100%;
+    }
+}

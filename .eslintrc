@@ -1,18 +1,19 @@
 {
   "root": true,
   "extends": "eslint:recommended",
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
+    "requireConfigFile": false,
     "allowImportExportEverywhere": false,
-    "sourceType": "module",
     "project": [
       "./.eslintrc.json"
     ],
+    "ecmaVersion": 6,
+    "sourceType": "module",
     "ecmaFeatures": {
-      "globalReturn": false
+      "jsx": true
     }
   },
-  "requireConfigFile": true,
   "rules": {
     "semi": [
       "error",
@@ -20,7 +21,7 @@
     ],
     "quotes": [
       "error",
-      "double"
+      "single"
     ],
     "eqeqeq": "off",
     "curly": "error"

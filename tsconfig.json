@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "preserveConstEnums": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "noResolve": false,
@@ -10,10 +11,10 @@
     "allowJs": true,
     "watch": true,
     "jsx": "react",
-    "rootDir": "src/",
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./src"
   },
+  "include": ["src/**/*"],
   "exclude": [
     "node_modules",
     "./src/**/*.spec.ts"

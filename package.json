@@ -1,7 +1,7 @@
 {
   "homepage": "https://intehart.github.com/",
-  "name": "react-app",
-  "version": "0.1.0",
+  "name": "personal-site-zamalov-me",
+  "version": "1.0.0-beta",
   "private": true,
   "dependencies": {
     "modern-normalize": "^1.1.0",
@@ -42,8 +42,25 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^8.12.0",
     "gh-pages": "^3.1.0",
+    "node-sass": "^7.0.1",
     "prettier": "2.6.2",
     "sass": "^1.49.9",
     "typescript": "^4.6.2"
+  },
+  "description": "Персональный сайт разработчика",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intehart/github-pages-react-app.git"
+  },
+  "keywords": [
+    "personal-site",
+    "js-developer",
+    "react-developer"
+  ],
+  "author": "Ruslan Zamalov (zamruma@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intehart/github-pages-react-app/issues"
   }
 }

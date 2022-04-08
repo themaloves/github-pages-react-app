@@ -1,0 +1,29 @@
+@import "src/css/var";
+
+.section {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 68px;
+  position: absolute;
+  background-color: $white;
+  box-shadow: 0 0 10px 0 $gray;
+}
+
+.menu {
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  grid-column-gap: 16px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: $gray;
+}
+
+.active {
+  color: $black;
+}

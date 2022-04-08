@@ -1,7 +1,7 @@
 {
   "homepage": "https://intehart.github.com/",
   "name": "personal-site-zamalov-me",
-  "version": "2.1.0-beta",
+  "version": "2.2.0-beta",
   "private": true,
   "dependencies": {
     "modern-normalize": "^1.1.0",

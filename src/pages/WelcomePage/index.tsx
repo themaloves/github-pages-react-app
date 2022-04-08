@@ -1,10 +1,13 @@
 import React from 'react';
 
+import s from './WelcomePage.module.scss';
+
 export const WelcomePage = () => {
 	return (
-		<section>
-			<h1>Hello</h1>
-			<h3>I'm programmer</h3>
+		<section className={s.section}>
+			<h1>Welcome!</h1>
+			<h2>This site about My live and about My profession.</h2>
+			<p>Here has development articles and life-hack for live</p>
 		</section>
 	);
 };

@@ -1,3 +1,8 @@
 .section {
-  padding-top: 24px;
+  height: calc(100vh - 68px);
+}
+
+.background {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 50%);
 }

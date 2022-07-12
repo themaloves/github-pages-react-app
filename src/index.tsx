@@ -5,7 +5,7 @@ import './css/settings.scss';
 
 import { App } from './App';
 
-const container = document.getElementById('root');
+const container: HTMLElement = document.getElementById('root')!;
 const root = createRoot(container);
 root.render(
 	<React.StrictMode>

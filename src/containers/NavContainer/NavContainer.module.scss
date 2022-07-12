@@ -15,15 +15,43 @@
   height: 100%;
   display: flex;
   margin: 0 auto;
-  grid-column-gap: 16px;
   align-items: center;
 }
 
 .link {
   text-decoration: none;
-  color: $gray;
+  color: $light-gray;
+
+  &:not(.active):hover {
+    color: $middle-gray
+  }
 }
 
 .active {
+  $self_active: &;
   color: $black;
+}
+
+.items {
+  display: flex;
+  padding: 0;
+}
+
+.item {
+  list-style-type: none;
+
+  &:nth-child(n+2) {
+    margin-left: 16px;
+  }
+}
+
+.visible {
+  transform: translateY(100%);
+}
+
+@media #{$not-desktop} {
+  .section {
+    padding: 10px;
+    height: 48px;
+  }
 }

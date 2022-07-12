@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { Typography } from 'components';
+
 import s from './AboutPage.module.scss';
 
 export function AboutPage() {
 	return (
 		<section className={s.section}>
-			<h3>My name is Ruslan</h3>
+			<Typography variant="h3">My name is Ruslan</Typography>
 			<p>
 				I'm Software Engineer, I like build new application and it is my
 				profession.

@@ -17,6 +17,8 @@
     "@typescript-eslint/no-shadow": [
       "error"
     ],
+
+    "@typescript-eslint/no-explicit-any": "off",
 //    "@typescript-eslint/explicit-function-return-type": [
 //      "error",
 //      {

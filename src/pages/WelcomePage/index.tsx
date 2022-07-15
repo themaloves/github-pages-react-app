@@ -6,9 +6,9 @@ import s from './WelcomePage.module.scss';
 export const WelcomePage = () => {
 	return (
 		<section className={s.section}>
-			<h2>
+			<Typography variant="paragraph">
 				This site about My live and about My profession.
-			</h2>
+			</Typography>
 			<p>
 				Here has development articles and life-hack for live
 			</p>

@@ -1,10 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {
+	BrowserRouter,
+	Routes,
+	Route,
+} from 'react-router-dom';
 
 import { AboutPage } from './pages/AboutPage';
 import { WelcomePage } from './pages/WelcomePage';
 
-import { NavContainer } from './containers/NavContainer';
+import { NavContainer, FooterContainer } from 'containers';
 
 import s from './App.module.scss';
 
@@ -18,6 +22,7 @@ export const App = () => {
 					<Route path={'about'} element={<AboutPage />} />
 				</Routes>
 			</main>
+			<FooterContainer />
 		</BrowserRouter>
 	);
 };

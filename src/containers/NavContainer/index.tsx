@@ -7,7 +7,7 @@ import { Hamburger } from './components/Hamburger';
 
 import s from './NavContainer.module.scss';
 
-const links = [
+export const links = [
 	{ key: 1, to: '/', name: 'Главная' },
 	{ key: 2, to: '/about', name: 'Обо мне' },
 	{ key: 3, to: '/articles', name: 'Статьи' },
@@ -25,7 +25,7 @@ export function NavContainer() {
 	});
 
 	return (
-		<section className={s.section}>
+		<header className={s.section}>
 			{matchesMedia && (
 				<Hamburger
 					isOpenMenu={isVisible}
@@ -51,6 +51,6 @@ export function NavContainer() {
 					})}
 				</ul>
 			</nav>
-		</section>
+		</header>
 	);
 }

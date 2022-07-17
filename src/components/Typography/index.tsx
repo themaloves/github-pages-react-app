@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 import s from './Typography.module.scss';
 
 export enum VariantTypography {

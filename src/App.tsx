@@ -11,6 +11,7 @@ import { WelcomePage } from './pages/WelcomePage';
 import { NavContainer, FooterContainer } from 'containers';
 
 import s from './App.module.scss';
+import 'css/global.scss';
 
 export const App = () => {
 	return (

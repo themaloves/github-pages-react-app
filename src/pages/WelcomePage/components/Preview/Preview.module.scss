@@ -1,0 +1,57 @@
+@import "src/css/var";
+
+.section {
+  display: flex;
+  height: calc(100vh - 68px);
+  background-image: url("bg-img-tetris.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  gap: 32px;
+}
+
+.container {
+  flex: 1 1 50%;
+
+  &:nth-child(1) {
+    margin-top: 140px;
+  }
+  &:nth-child(2) {
+    margin-top: 140px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.leftText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media #{$not-desktop} {
+  .section {
+    height: calc(100vh - 48px);
+    flex-direction: column;
+  }
+
+  .container {
+    flex: initial;
+    gap: 24px;
+
+    &:nth-child(1) {
+      margin-top: 36px;
+    }
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+  }
+
+  .section {
+    background-size: contain;
+  }
+}

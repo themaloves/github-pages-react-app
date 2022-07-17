@@ -6,7 +6,7 @@
   width: 100%;
   min-width: 320px;
   height: 68px;
-  position: absolute;
+  position: sticky;
   background-color: $white;
   box-shadow: 0 0 10px 0 $gray;
 }
@@ -48,7 +48,7 @@
 
 .menuMedia {
   position: absolute;
-  height: calc(100vh - 48px - 150px);
+  height: calc(100vh - 48px);
   width: 100%;
   top: 48px;
   left: 0;
